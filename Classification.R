@@ -7,7 +7,7 @@ library("rpart")
 library("rpart.plot")
 library("randomForest")
 
-setwd("Y:/Projects/Pool Study/Analysis/2017")
+#setwd("Y:/Projects/Pool Study/Analysis/2017")
 ps_data<-read.xlsx("PS_HabSnorkelSum_2017.xlsx", "AllData")
 #Filter data to remove null values
 ps_data<-filter(ps_data, !is.na(SiteCode))
